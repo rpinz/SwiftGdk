@@ -1,0 +1,3 @@
+[submodule "Library/CGdk"]
+	path = Library/CGdk
+	url = https://github.com/rpinz/CGdk

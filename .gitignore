@@ -3,5 +3,5 @@
 /Packages
 /*.xcodeproj
 Package.pins
-Package.resolved
+/Package.resolved
 Sources/*-*.swift
