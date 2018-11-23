@@ -20,4 +20,10 @@ s/: \([A-Za-z.]*Mapping[,)]\)/: @escaping \1/g
 s/: \([A-Za-z.]*Listener[,)]\)/: @escaping \1/g
 s/: \([A-Za-z.]*ListenerInit[,)]\)/: @escaping \1/g
 s/GObject.Callback/GLibObject.Callback/g
-s/public func endPaint/@available(*, deprecated) public func endPaint/
+s/func endPaint/@available(*, deprecated) func endPaint/
+s/public func beep/@available(*, deprecated) public func beep/
+s/public func errorTrapPop/@available(*, deprecated) public func errorTrapPop/
+s/public func errorTrapPopIgnored/@available(*, deprecated) public func errorTrapPopIgnored/
+s/public func errorTrapPush/@available(*, deprecated) public func errorTrapPush/
+s/public func flush/@available(*, deprecated) public func flush/
+s/public func setDoubleClickTime/@available(*, deprecated) public func setDoubleClickTime/
